@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Us</title>
+
+  <!-- Required styles -->
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
+
+  <style>
+    .contact-card {
+      width: 70%;
+      margin: 40px auto;
+      border-radius: 20px;
+      border: 2px solid #ddd;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+
+    .contact-header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .contact-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .contact-icon {
+      width: 150px;
+      margin-right: 20px;
+    }
+
+    .divider {
+      border-left: 2px solid #ccc;
+      height: 200px;
+      margin: 0 20px;
+    }
+
+    .contact-info p {
+      margin: 5px 0;
+      color: #2c6ed5;
+      font-size: 15px;
+    }
+
+    .navbar-custom {
+      background-color: darkturquoise;
+      height: 1in;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+  <div class="container-fluid">
+    <h2 style="padding-right: 5%;">Dealerships</h2>
+
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="/contact">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- CONTACT CARD -->
+<div class="contact-card">
+
+  <div class="contact-header">
+    <img src="/static/car_dealership.jpg" width="100%">
+  </div>
+
+  <div class="contact-content">
+
+    <!-- ICON -->
+    <div>
+      <img src="/static/person.png" class="contact-icon">
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- CONTACT INFO -->
+    <div class="contact-info">
+      <p><strong>Contact Customer Service</strong><br>
+      support@bestcars.com</p>
+
+      <p><strong>Contact our National Advertising team</strong><br>
+      NationalSales@bestcars.com</p>
+
+      <p><strong>Contact our Public Relations team</strong><br>
+      PR@bestcars.com</p>
+
+      <p><strong>Contact the bestcars.com offices</strong><br>
+      312-611-1111</p>
+
+      <p><strong>Become a bestcars.com car dealer</strong><br>
+      Visit growwithbestcars.com</p>
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
